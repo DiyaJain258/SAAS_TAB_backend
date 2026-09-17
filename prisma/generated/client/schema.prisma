@@ -98,8 +98,8 @@ model company {
   logo                    String?                 @db.LongText
   startDate               DateTime?
   endDate                 DateTime?
-  invoiceTemplate         String                  @default("Standard VAT (CEA)")
-  invoiceColor            String                  @default("#000000")
+  invoiceTemplate         String                  @default("Light Gray")
+  invoiceColor            String                  @default("#dedede")
   showQrCode              Boolean                 @default(true)
   invoiceLogo             String?                 @db.LongText
   planName                String?
